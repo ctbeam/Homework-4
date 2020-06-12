@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+#startDisplay {
+  text-align: center;
+}
+
+.btn {
+  align-items: left;
+  text-decoration-color: white;
+  background: white;
+}
+
+button {
+
+  background-color: purple;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 25px;
+}
+
+#q {
+  font-weight: bold;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+}
+
+#topBar {
+  background-color: white;
+}
+
+#timer {
+  margin-right: 100px;
+}
+
+#timer {
+  margin-right: 100px;
+}

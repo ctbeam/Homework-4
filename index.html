@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="topBar" class="row">
+        <div class="col text-left">
+          <button class="btn" id="highscorebtn">View Highscores</button>
+        </div>
+        <div class="row" id="timer">
+          Time left:
+          <p class="time"></p>
+          <div id="main"></div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 class="col-md-12" id="header">Coding Quiz!</h1>
+      </div>
+      <br />
+      <main>
+        <div id="startDisplay">
+          <p>
+            Answer the following questions. You lose time if you get the answer wrong.
+             If you get one right, you will gain time.
+            Good luck!
+          </p>
+          <button class="btn" id="startButton">Start Quiz</button>
+        </div>
+        <ul id="q"></ul>
+        <div id="answerCheckDiv"></div>
+      </main>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
